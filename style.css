@@ -19,6 +19,7 @@ main {
 .main-content {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .back {
@@ -49,16 +50,19 @@ main {
   display: inline-block;
   background-color: #ff9a4b;
   margin: 0;
+  color: #EEEEEE;
 }
 .step2 {
   display: inline-block;
   background-color: #ff9a4b;
   margin: 0;
+  color: #EEEEEE;
 }
 .step3 {
   display: inline-block;
   background-color: #ff9a4b;
   margin: 0;
+  color: #EEEEEE;
 }
 
 .image2 {
@@ -100,3 +104,15 @@ footer {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 768px){
+  .main-content {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .back {
+    margin: 0 45px;
+  }
+}
